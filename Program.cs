@@ -8,7 +8,9 @@ namespace Qmusic
         {
             Console.WriteLine("Qmusic");
             Qmusic q = new Qmusic();
-            Console.WriteLine(q.GetStreamURL());
+            //string url = q.GetStreamURL();
+            string url = "https://edtrfyguhijokpl/rtfyguhiokp";
+            q.ReadMusicStream(url);
             Console.ReadKey();
         }
     }
